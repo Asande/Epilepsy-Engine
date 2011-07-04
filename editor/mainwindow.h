@@ -4,7 +4,7 @@
 #include <QMainWindow>
 #include <QListWidgetItem>
 #include <QStandardItemModel>
-#include "Graphics.h"
+#include "render/Graphics.h"
 namespace Ui {
     class MainWindow;
 }

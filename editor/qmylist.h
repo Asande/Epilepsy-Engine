@@ -2,7 +2,7 @@
 #define QMYLIST_H
 
 #include <QListWidget>
-#include "iobject.h"
+#include "render/iobject.h"
 
 class QMyList : public QListWidget
 {

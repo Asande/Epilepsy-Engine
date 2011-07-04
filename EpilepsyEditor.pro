@@ -32,7 +32,11 @@ SOURCES += main.cpp \
     render/epsphere.cpp \
     render/epbox.cpp \
     physEngine/momentsqueue.cpp \
-    physEngine/epilepsyobject.cpp
+    physEngine/MomentoQueue.cpp \
+    physEngine/EpilepsyObject.cpp \
+    physEngine/EpilepsyRectangle.cpp \
+    physEngine/EpilepsySphere.cpp \
+    physEngine/EpilepsyController.cpp
 HEADERS += \
     d3dx9.h \
     Graphics.h \
@@ -56,8 +60,6 @@ HEADERS += \
     editor/mytreeitem.h \
     editor/mainwindow.h \
     editor/eptoolbar.h \
-    physEngine/EpilepsiyaObject.h \
-    physEngine/EpController.h \
     render/irenderable.h \
     render/iobject.h \
     render/ICamera.h \
@@ -65,8 +67,11 @@ HEADERS += \
     render/FreeCamera.h \
     render/epsphere.h \
     render/epbox.h \
-    physEngine/momentsqueue.h \
-    physEngine/epilepsyobject.h
+    physEngine/MomentoQueue.h \
+    physEngine/EpilepsyObject.h \
+    physEngine/EpilepsyRectangle.h \
+    physEngine/EpilepsySphere.h \
+    physEngine/EpilepsyController.h
 FORMS += mainwindow.ui \
     editor/mainwindow.ui \
     editor/mainwindow.ui

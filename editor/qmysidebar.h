@@ -2,7 +2,7 @@
 #define QMYSIDEBAR_H
 
 #include <QFrame>
-#include "iobject.h"
+#include "render/iobject.h"
 
 class QMySidebar : public QFrame
 {

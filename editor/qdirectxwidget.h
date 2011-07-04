@@ -6,10 +6,10 @@
 #include <QMouseEvent>
 #include <QMessageBox>
 
-#include "Graphics.h"
-#include "iobject.h"
-#include "epbox.h"
-#include "epsphere.h"
+#include "render/Graphics.h"
+#include "render/iobject.h"
+#include "render/epbox.h"
+#include "render/epsphere.h"
 
 #define CAMROTATE 1
 #define CAMDIST 2

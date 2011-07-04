@@ -1,6 +1,6 @@
 #include <QtGui/QApplication>
 #include <QTimer>
-#include "mainwindow.h"
+#include "editor/mainwindow.h"
 
 int main(int argc, char *argv[])
 {
